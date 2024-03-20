@@ -7,10 +7,33 @@
 
 :root{
   --black--color:rgb(37, 36, 36);
-  --whit--color:white;
+  --whit--color:rgb(227, 219, 219);
+  --verde--color:rgb(137, 236, 122);
 }
 
-body{
+body {
     background-color: var(--black--color);
     color:var(--whit--color);
+}
+
+header{
+  height: 70px;
+}
+.menu_de_navegação{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+
+  margin: 20px;
+  text-decoration: none;
+}
+
+a{
+  text-decoration: none;
+  color: var(--whit--color);
+}
+
+a:hover{
+  color: var(--verde--color);
 }
